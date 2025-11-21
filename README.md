@@ -15,7 +15,7 @@ This repository contains all Jupyter notebooks and deliverables completed for th
 - Popups and tooltips included to enhance map interactivity.
 
 ### 3. Predictive Modeling
-- Multiple classification algorithms evaluated.
+- Multiple classification algorithms evaluated (Logistic Regression, Support Vector Machines (SVM), Decision Tree Classifier, K Nearest Neighbors).
 - Hyperparameter optimization performed using GridSearchCV for all models.
 - Best-performing model selected based on accuracy, precision, recall, and F1-score.
 
@@ -23,6 +23,7 @@ This repository contains all Jupyter notebooks and deliverables completed for th
 - Summary of findings from EDA and modeling.
 - Visualizations supporting insights.
 - Conclusions based on overall project results.
+- Reports are presented in a PowerPoint as part of this repository 
 
 ## Project Objectives
 - Analyze historical SpaceX Falcon 9 launch data.
@@ -31,7 +32,7 @@ This repository contains all Jupyter notebooks and deliverables completed for th
 - Present insights using visualizations, mapping, and reporting.
 
 ## Technologies Used
-- Python (Pandas, NumPy, Matplotlib, Scikit-learn, Folium)
+- Python (Pandas, NumPy, Scipy, Matplotlib, Scikit-learn, Folium, Sqlite)
 - SQL
 - Jupyter Notebooks
 - IBM Watson Studio
@@ -40,17 +41,17 @@ This repository contains all Jupyter notebooks and deliverables completed for th
 - Distinct patterns identified across launch sites and booster types.
 - Geospatial mapping improved understanding of site-specific performance.
 - GridSearchCV optimization significantly improved model performance.
-- Final classifier demonstrated strong predictive accuracy for launch success.
+- Final classifier (Decision Tree Classifier) demonstrated strong predictive accuracy for launch success over other models (Logistic Regression, SVM, and KNN).
 
 ## Conclusions
 1. Launch success varies across sites, booster versions, and payload ranges.
 2. The interactive Folium map provided clear geographic insight into mission outcomes.
 3. Classification models performed reliably after hyperparameter tuning.
-4. The final model provides strong predictive capability for future mission assessments.
+4. The Decision Tree Classifier model provides strong predictive capability for future mission assessments.
 
 ## How to Use This Repository
 1. Clone the repository:
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Raphaelogbodo/Data-Science-Course.git
 2. Open the Jupyter notebooks in sequence.
 3. Install required dependencies as needed.
 4. Review the analysis, visualizations, and model outputs.
